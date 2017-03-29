@@ -9,6 +9,11 @@ Here are the primary things we do in this chapter.
 * Use Ionic's icon set Ionicons
 * Use Ionic cards and lists
 
+# I actually changed this app from Hawaii to Florida and made sure to add some directions in there from different place
+I also added a filter, which is a compass to represent the directions
+I also made sure to change the background color and made sure to shake it up a little
+I took some pointers from various websites and took some documentation from ionic itself
+
 ### Links
 
 * [Live Demo](https://ionic-in-action-chapter4.herokuapp.com)
@@ -21,3 +26,4 @@ Here are the primary things we do in this chapter.
     git clone https://github.com/ionic-in-action/chapter4.git
     cd chapter4
     ionic serve
+    

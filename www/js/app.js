@@ -41,3 +41,30 @@ angular.module('App', ['ionic'])
     }
   });
 })
+
+
+
+myModule.factory("LocalStorageService", function($window, $rootScope) {
+    
+    angular.element($window).on('storage', function(event) {
+        if (event.key === 'my-storage') {
+            $rootScope.$apply();
+        }
+    });    
+    
+    return {
+        setData: function(key, val) {
+			
+            $window.localStorage && $window.localStorage.setItem(key, val);
+            return this;
+        },
+        getData: function(key) {
+            
+            var val = $window.localStorage && $window.localStorage.getItem(key);
+            
+            var data = angular.fromJson(val);
+            
+            return data; 
+        }
+    };
+});

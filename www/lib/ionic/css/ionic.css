@@ -2546,7 +2546,7 @@ body, .ionic-body {
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   text-size-adjust: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -3081,8 +3081,8 @@ a.subdued {
     .bar.bar-stable.bar-footer {
       background-image: linear-gradient(180deg, #b2b2b2, #b2b2b2 50%, transparent 50%); }
   .bar.bar-positive {
-    border-color: #0c63ee;
-    background-color: #387ef5;
+    border-color: #000000;
+    background-color: #990033;
     background-image: linear-gradient(0deg, #0c63ee, #0c63ee 50%, transparent 50%);
     color: #fff; }
     .bar.bar-positive .title {
@@ -4623,8 +4623,8 @@ ion-tabs.tabs-color-active-dark .tab-item {
  * --------------------------------------------------
  */
 .item {
-  border-color: #ddd;
-  background-color: #fff;
+  border-color: #000000;
+  background-color: 	#00ffbf;
   color: #444;
   position: relative;
   z-index: 2;
